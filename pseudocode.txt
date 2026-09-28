@@ -1,0 +1,1 @@
+create a dummy node and iterate through using a cur node to update. then return the dummy.

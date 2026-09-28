@@ -1,0 +1,46 @@
+#+begin_src python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        valtoi = {}
+
+        for i in range(len(nums)):
+            goal = target - nums[i]
+            if goal in valtoi:
+                return [valtoi[goal], i]
+            valtoi[nums[i]] = i
+#+end_src
+
+#+begin_src csharp
+public class Solution {
+    public int[] TwoSum(int[] nums, int target) {
+        var prevMap = new Dictionary<int, int>();
+
+        for (int i = 0; i < nums.Length; i++) {
+            int diff = target - nums[i];
+            if (prevMap.ContainsKey(diff)) {
+                return new[] {prevMap[diff], i};
+            }
+            prevMap[nums[i]] = i;
+        }
+        return null;
+    }
+}
+#+end_src
+
+#+begin_src cpp
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> prevMap;
+
+        for (int i = 0; i < nums.size(); i++) {
+            int diff = target - nums[i];
+            if (prevMap.contains(diff)) {
+                return {prevMap[diff], i};
+            }
+            prevMap.insert({nums[i], i});
+        }
+        return {};
+    }
+};
+#+end_src        

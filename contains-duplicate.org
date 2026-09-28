@@ -1,0 +1,41 @@
+#+begin_src python
+def hasDuplicate(nums):
+    seen = set()
+    for num in nums:
+        if num in seen:
+            return True
+        seen.add(num)
+    return False
+#+end_src
+
+#+begin_src csharp
+public class Solution {
+    public bool hasDuplicate(int[] nums) {
+        var seen = new HashSet<int>();
+        foreach (int num in nums) {
+            if (seen.Contains(num))
+			{
+                return true;
+            }
+            seen.Add(num);
+        }
+        return false;
+    }
+}
+#+end_src
+
+#+begin_src cpp
+class Solution {
+public:
+    bool hasDuplicate(vector<int>& nums) {
+        unordered_set<int> seen;
+        for (int num : nums) {
+            if (seen.contains(num)) {
+                return true;
+            }
+            seen.insert(num);
+        }
+        return false;
+    }
+};
+#+end_src

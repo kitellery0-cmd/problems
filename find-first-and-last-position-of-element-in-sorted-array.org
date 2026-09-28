@@ -1,0 +1,46 @@
+1. binary search with bias
+#+begin_src python
+class Solution:
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        left = self.binary_search(nums, target)
+        right = self.binary_search(nums, target, True)
+        return [left, right]
+
+    def binary_search(self, nums, target, right=False) -> int:
+        """ Binary search that find left or rightmost element """
+        l = 0
+        r = len(nums) - 1
+        res = -1
+        
+        while l <= r:
+            m = (l + r) // 2
+            if nums[m] == target:
+                res = m
+                if right:
+                    l = m + 1
+                else:
+                    r = m - 1
+            elif target > nums[m]:
+                l = m + 1
+            else:
+                r = m - 1
+
+        return res
+#+end_src
+- Time: O(log⁡ n)
+- Space: O(1)
+
+2. built in
+#+begin_src python
+class Solution:
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        left = bisect.bisect_left(nums, target)
+        if left >= len(nums) or nums[left] != target:
+            return [-1, -1]
+
+        right = bisect.bisect_right(nums, target) - 1
+        return [left, right]
+
+#+end_src
+- time: O(log n)
+- space: O(1)

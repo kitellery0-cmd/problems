@@ -1,0 +1,41 @@
+1. logic of the problem. k is pushed right by present elements.
+#+begin_src python
+class Solution:
+    def findKthPositive(self, arr: List[int], k: int) -> int:
+        present_elements = 0
+        for num in arr:
+            if num <= present_elements + k:
+                present_elements += 1
+        return present_elements + k
+#+end_src
+
+2. implementation of this but without the need for present_elements, as we are just in effect incrementing the result and the check. so we can call this k.
+#+begin_src python
+class Solution:
+    def findKthPositive(self, arr: List[int], k: int) -> int:
+        for num in arr:
+            if num <= k:
+                k += 1
+            elif num > k:
+                break
+        return k
+#+end_src
+
+3. the final bin search answer using the sorted array and =arr[idx] - idx - 1= invariant.
+number of missing numbers before arr[idx] is 'arr[idx] - idx - 1'
+
+#+begin_src python
+class Solution:
+    def findKthPositive(self, arr: List[int], k: int) -> int:
+        l, r = 0, len(arr) - 1
+        while l <= r:
+            m = (l + r) // 2
+            # if there are any missing numbers before arr[m]
+            if (arr[m] - m - 1) < k: 
+                l = m + 1 
+            else:
+                r = m - 1
+
+        return l + k # array_nums_less_than_k + k_missing_numbers
+#+end_src
+

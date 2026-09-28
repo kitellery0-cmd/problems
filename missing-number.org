@@ -1,0 +1,24 @@
+#+begin_src python
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        n = len(nums)
+        xorr = n
+        for i in range(n):
+            xorr ^= (i ^ nums[i])
+        return xorr
+#+end_src
+
+#+begin_src cpp
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        int n = nums.size();
+        int xorr = n;
+        for (int i = 0; i < n; i++) {
+            xorr ^= (i ^ nums[i]);
+        }
+        return xorr;
+    }
+};
+#+end_src
+

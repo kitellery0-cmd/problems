@@ -1,0 +1,53 @@
+#+begin_src python
+class Solution:
+    def validTree(self, n: int, edges: List[List[int]]) -> bool:
+        adj = [[] for _ in range(n)]
+        for u, v in edges:
+            adj[u].append(v)
+            adj[v].append(u)
+
+        visited = set()
+        def dfs(node, parent):
+            if node in visited:
+                return False
+
+            visited.add(node)
+            for neighbour in adj[node]:
+                if neighbour != parent and not dfs(neighbour, node): # cycle
+                    return False
+            return True
+                       
+        # acyclic and all nodes connected
+        return dfs(0, -1) and len(visited) == n
+#+end_src
+
+#+begin_src cpp
+class Solution {
+public:
+    bool validTree(int n, vector<vector<int>>& edges) {
+        vector<vector<int>> adj(n);
+        for (const auto& edge : edges) {
+            adj[edge[0]].push_back(edge[1]);
+            adj[edge[1]].push_back(edge[0]);
+        }
+
+        unordered_set<int> visit;
+        return (dfs(0, -1, visit, adj) && (visit.size() == n));
+    }
+
+    bool dfs(int node, int parent, auto& visit, auto& adj) {
+        if (visit.contains(node)) {
+            return false;
+        }
+
+        visit.insert(node);
+        for (int nei : adj[node]) {
+            if ((nei != parent) &&
+                (!dfs(nei, node, visit, adj))) {
+                return false;
+            }
+        }
+        return true;
+    }
+};
+#+end_src

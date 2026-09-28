@@ -1,0 +1,64 @@
+1. greedy
+#+begin_src python
+class Solution:
+    def checkValidString(self, s: str) -> bool:
+        open_min = open_max = 0
+
+        for c in s:
+            match c:
+                case '*':
+                    open_min -= 1
+                    open_max += 1
+                case '(':
+                    open_min += 1
+                    open_max += 1
+                case ')':
+                    open_min -= 1
+                    open_max -= 1
+                case _:
+                    raise ValueError()
+
+            if open_max < 0:
+                return False
+            elif open_min < 0:
+                open_min = 0
+                
+        return open_min == 0
+#+end_src
+time: O(n)
+space: O(1)
+
+2. stack
+#+begin_src python
+class Solution:
+    def checkValidString(self, s: str) -> bool:
+        open_p = []
+        wild = []
+        
+        for i in range(len(s)):
+            match s[i]:
+                case '*':
+                    wild.append(i)
+                case '(':
+                    open_p.append(i)
+                case ')':
+                    if not open_p and not wild:
+                        return False
+                    elif open_p:
+                        open_p.pop()
+                    elif wild:
+                        wild.pop()
+                case _:
+                    raise ValueError()
+
+        while open_p and wild:
+            open_idx = open_p.pop()
+            wild_idx = wild.pop()
+            if open_idx > wild_idx:
+                return False
+
+        return not open_p
+
+#+end_src
+time: O(n)
+space: O(n)

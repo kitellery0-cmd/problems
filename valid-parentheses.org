@@ -1,0 +1,78 @@
+#+begin_src python
+def isValid(s):
+    stack = []
+    parens = {')':'(', ']':'[', '}':'{'}
+
+    for char in s:
+        if char in parens:
+            if stack and stack[-1] == parens[char]:
+                stack.pop()
+            else:
+                return False
+        else:
+            stack.append(char)
+
+    return not stack
+#+end_src
+
+#+begin_src csharp
+public class Solution {
+    public bool IsValid(string s) {
+        var stack = new Stack<char>();
+        var closeToOpen = new Dictionary<char, char> {
+            { ')', '(' },
+            { ']', '[' },
+            { '}', '{' }
+        };
+
+        foreach (char c in s) {
+            if (closeToOpen.ContainsKey(c))
+			{
+                if (stack.Count > 0 && stack.Peek() == closeToOpen[c])
+				{
+					stack.Pop();
+				}
+                else
+                {
+					return false;
+				}
+            } 
+            else
+            {
+				stack.Push(c);
+            }
+        }
+		
+        return stack.Count == 0;
+    }
+}
+#+end_src
+
+#+begin_src cpp
+class Solution {
+public:
+    bool isValid(string s) {
+        stack<char> stack;
+        unordered_map<char, char> closeToOpen = {
+            {')', '('},
+            {']', '['},
+            {'}', '{'}
+        };
+
+        for (char c : s) {
+            if (closeToOpen.contains(c)) {
+                if (!stack.empty() && stack.top() == closeToOpen[c]) {
+                    stack.pop();
+                } else {
+                    return false;
+                }
+            } else {
+                stack.push(c);
+            }
+        }
+        return stack.empty();
+    }
+};
+
+
+#+end_src

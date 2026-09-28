@@ -1,0 +1,36 @@
+#+begin_src python
+class Solution:
+    def reverseBits(self, n: int) -> int:
+        res = 0
+        for i in range(32):
+            one = (n >> i) & 1
+            res |= (one << (31 - i))
+        return res
+#+end_src
+
+#+begin_src csharp
+public class Solution {
+    public uint ReverseBits(uint n) {
+        uint res = 0;
+        for (int i = 0; i < 32; i++) {
+            uint bit = (n >> i) & 1;
+            res += (bit << (31 - i));
+        }
+        return res;
+    }
+}
+#+end_src
+
+#+begin_src cpp
+class Solution {
+public:
+    uint32_t reverseBits(uint32_t n) {
+        int res = 0;
+        for (int i = 0; i < 32; i++) {
+            int bit = (n >> i) & 1;
+            res += (bit << (31 - i));
+        }
+        return res;
+    }
+};
+#+end_src

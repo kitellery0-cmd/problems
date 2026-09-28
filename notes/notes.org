@@ -1,0 +1,12 @@
+* general heuristics
+- go for the simplest, well performing solution that I understand
+- prefer ~range(len)~ over other constructs for the above reason
+
+
+* study
+** read up on dynamic programming
+** Union-find/ DSU
+
+
+* notes
+dynamic programming problems in general may benefit from using a more rote style so as to ensure I understand the logic.

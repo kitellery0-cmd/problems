@@ -1,0 +1,37 @@
+#+begin_src cpp
+class Solution {
+public:
+    int getSum(int a, int b) {
+		int res = a;
+		int carry = b;
+		
+        while (carry != 0) {
+			int sum = res ^ carry;
+			carry = (res & carry) << 1;
+            res = sum;
+        }
+        return res;
+    }
+};
+#+end_src
+
+#+begin_src python
+import numpy as np
+
+class Solution:
+    def getSum(self, a: int, b: int) -> int:
+        res = np.int32(a)
+        carry = np.int32(b)
+
+        while carry != 0:
+            new_sum = res ^ carry
+            carry = (res & carry) << 1
+            res = new_sum
+        return int(res)
+#+end_src
+
+we can use binary operations to get the result and carry.
+a ^ b gives us the sum excluding carries
+(a & b) << 1 gives us the carry
+
+python does not use 32 bit integers by default.

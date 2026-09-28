@@ -1,0 +1,27 @@
+#+begin_src python
+class Solution:
+    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        if not root: return None
+
+        root.left, root.right = root.right, root.left
+
+        self.invertTree(root.left)
+        self.invertTree(root.right)
+
+        return root
+#+end_src
+
+#+begin_src cpp
+class Solution {
+public:
+    TreeNode* invertTree(TreeNode* root) {
+        if (!root) return nullptr;
+
+        swap(root->left, root->right);
+        invertTree(root->left);
+        invertTree(root->right);
+
+        return root;
+    }
+};
+#+end_src

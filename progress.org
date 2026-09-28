@@ -1,0 +1,414 @@
+#+STARTUP: logdone fold
+
+[[file:buffer.py][buffer]]
+* 75
+** easy
+*** DONE [[file:contains-duplicate.py][contains duplicate]]
+CLOSED: [2025-10-06 Mon 13:24]
+<2025-10-23 Thu>
+*** DONE [[file:valid-anagram.py][valid anagram]]
+CLOSED: [2025-10-06 Mon 16:19]
+<2025-10-23 Thu>
+*** DONE [[file:two-sum.py][two sum]]
+CLOSED: [2025-10-25 Sat 11:52]
+<2025-10-24 Fri> 95
+<2025-12-17 Wed>
+*** DONE [[file:valid-palindrome.py][valid palindrome]]
+CLOSED: [2025-10-07 Tue 21:47]
+<2025-10-06 Mon> 80
+<2025-10-24 Fri> 
+*** DONE [[file:best-time-to-buy-and-sell-stock.py][best time to buy and sell stock]]
+CLOSED: [2025-10-26 Sun 16:51]
+<2025-10-06 Mon> 80
+<2025-10-25 Sat> 95
+<2025-10-26 Sun>
+*** DONE [[file:valid-parentheses.py][valid parentheses]]
+CLOSED: [2025-10-06 Mon 16:56]
+<2025-10-25 Sat>
+*** DONE [[file:reverse-linked-list.py][reverse linked list]]
+CLOSED: [2025-10-06 Mon 17:05]
+<2025-10-26 Sun>
+*** DONE [[file:merge-two-sorted-lists.py][merge two sorted lists]]
+CLOSED: [2025-10-08 Wed 11:18]
+<2025-10-06 Mon> 90
+<2025-10-26 Su>
+*** DONE [[file:linked-list-cycle.py][linked list cycle]]
+CLOSED: [2025-10-27 Mon 13:57]
+<2025-10-27 Mon>
+*** DONE [[file:invert-binary-tree.py][invert binary tree]]
+CLOSED: [2025-10-08 Wed 11:20]
+<2025-10-06 Mon> 50
+<2025-10-27 Mon>
+*** DONE [[file:maximum-depth-of-binary-tree.py][maximum depth of binary tree]]
+CLOSED: [2025-10-09 Thu 15:57]
+<2025-10-06 Mon> 90
+<2025-10-08 Wed>95
+<2025-10-28 Tue>
+*** DONE [[file:same-tree.py][same tree]]
+CLOSED: [2025-12-01 Mon 14:32]
+<2025-10-06 Mon> 50
+<2025-10-08 Wed> 60
+<2025-11-28 Fri> 90
+<2025-12-01 Mon>
+*** DONE [[file:subtree-of-another-tree.py][subtree of another tree]]
+CLOSED: [2025-12-15 Mon 21:08]
+<2025-10-07 Tue> 10
+<2025-10-08 Wed> 25
+<2025-10-09 Thu> 80
+<2025-11-30 Sun> 50
+<2025-12-02 Tue> 90
+<2025-12-10 Wed> 95
+<2025-12-15 Mon>
+*** DONE [[file:climbing-stairs.py][climbing stairs]]
+CLOSED: [2025-12-29 Mon 18:59]
+<2025-10-09 Thu> 50
+<2025-10-10 Fri> 100
+<2025-10-14 Tue> 60
+<2025-10-15 Wed> 100
+<2025-10-16 Thu> 100
+<2025-12-13 Sat> 20
+<2025-12-16 Tue> 80
+<2025-12-29 Mon>
+*** IN PROGRESS [[file:meeting-rooms.py][meeting rooms]]
+<2025-10-10 Fri> 95
+<2025-10-14 Tue> 100
+<2025-10-15 Wed> 100
+<2025-12-30 Tue> 80
+*** IN PROGRESS [[file:number-of-one-bits.py][number of one bits]]
+<2025-10-10 Fri> 90
+<2025-10-14 Tue> 100
+<2025-10-15 Wed> 100
+*** DONE [[file:counting-bits.py][counting bits]]
+CLOSED: [2025-10-17 Fri 18:40]
+<2025-10-14 Tue> 50
+<2025-10-15 Wed> 75
+<2025-10-16 Thu> 90
+*** DONE [[file:reverse-bits.py][reverse bits]]
+CLOSED: [2025-10-17 Fri 18:44]
+<2025-10-14 Tue>
+<2025-10-15 Wed> 25
+<2025-10-16 Thu> 100
+*** DONE [[file:missing-number.py][missing number]]
+CLOSED: [2025-10-17 Fri 18:47]
+<2025-10-14 Tue>
+<2025-10-15 Wed> 20
+<2025-10-16 Thu> 90
+** medium
+*** DONE [[file:group-anagrams.py][group anagrams]]
+CLOSED: [2025-10-23 Thu 16:40]
+<2025-10-20 Mon> 100
+<2025-10-23 Thu> 100
+*** DONE [[file:top-k-frequent-elements.py][top k frequent elements]]
+CLOSED: [2025-10-28 Tue 17:03]
+<2025-10-23 Thu> 80
+<2025-10-26 Sun>
+<2025-10-28 Tue>
+*** DONE [[file:encode-and-decode-strings.py][encode and decode strings]]
+CLOSED: [2025-11-06 Thu 12:58]
+<2025-10-23 Thu> 70
+<2025-10-26 Sun>
+<2025-11-01 Sat> 80
+<2025-11-03 Mon> 85
+<2025-11-04 Tue>
+<2025-11-06 Thu>
+*** DONE [[file:products-of-array-except-self.py][products of array except self]]
+CLOSED: [2025-11-06 Thu 13:05]
+<2025-10-23 Thu> 20
+<2025-10-27 Mon> 50
+<2025-11-02 Sun> 70
+<2025-11-03 Mon>
+<2025-11-06 Thu>
+*** DONE [[file:longest-consecutive-sequence.py][longest consecutive sequence]]
+CLOSED: [2025-10-27 Mon 16:43]
+<2025-10-23 Thu> 100
+<2025-10-27 Mon>
+*** DONE [[file:3-sum.py][3 sum]]
+CLOSED: [2025-11-14 Fri 22:20]
+<2025-10-24 Fri> 0
+<2025-10-27 Mon> 30
+<2025-11-03 Mon> 95
+<2025-11-06 Thu>
+<2025-11-14 Fri>
+*** DONE [[file:container-with-most-water.py][container with most water]]
+CLOSED: [2025-11-02 Sun 17:19]
+<2025-10-24 Fri> 100
+<2025-10-27 Mon>
+<2025-11-02 Sun>
+*** DONE [[file:longest-substring-without-repeating-characters.py][longest substring without repeating characters]]
+CLOSED: [2025-11-28 Fri 16:12]
+<2025-10-24 Fri> 5
+<2025-10-27 Mon> 4
+<2025-11-02 Sun> 50
+<2025-11-04 Tue> 60
+<2025-11-06 Thu>
+<2025-11-22 Sat> 90
+<2025-11-26 Wed>
+<2025-11-28 Fri>
+*** DONE [[file:longest-repeating-character-replacement.py][longest repeating character replacement]]
+CLOSED: [2025-11-30 Sun 18:48]
+<2025-10-25 Sat> 30
+<2025-10-27 Mon> 50
+<2025-11-06 Thu>
+<2025-11-22 Sat> 80
+<2025-11-26 Wed> 85
+<2025-11-28 Fri>
+<2025-11-30 Sun>
+*** DONE [[file:find-minimum-in-rotated-sorted-array.py][find minimum in rotated sorted array]]
+CLOSED: [2025-12-03 Wed 19:59]
+<2025-11-06 Thu> 80
+<2025-11-07 Fri> 
+<2025-11-28 Fri> 70
+<2025-11-30 Sun>
+<2025-12-03 Wed>
+*** DONE [[file:search-in-rotated-sorted-array.py][search in rotated sorted array]]
+CLOSED: [2025-12-15 Mon 20:01]
+<2025-11-07 Fri> 30
+<2025-11-29 Sat> 35
+<2025-12-03 Wed> 40
+<2025-12-07 Sun>
+<2025-12-10 Wed> 95
+<2025-12-15 Mon>
+*** DONE [[file:reorder-linked-list.py][reorder linked list]]
+CLOSED: [2025-12-10 Wed 21:08]
+<2025-11-07 Fri> 95
+<2025-11-30 Sun>
+<2025-12-03 Wed> 90
+<2025-12-10 Wed>
+*** DONE [[file:remove-node-from-end-of-linked-list.py][remove node from end of linked list]]
+CLOSED: [2025-12-10 Wed 21:38]
+<2025-12-05 Fri>
+<2025-12-10 Wed>
+*** DONE [[file:lowest-common-ancestor-in-binary-search-tree.py][lowest common ancestor in binary search tree]]
+CLOSED: [2025-12-30 Tue 17:04]
+<2025-12-16 Tue> 80
+<2025-12-23 Tue> 30
+<2025-12-28 Sun> 85
+<2025-12-30 Tue>
+*** DONE [[file:binary-tree-level-order-traversal.py][binary tree level order traversal]]
+CLOSED: [2025-12-30 Tue 17:09]
+<2025-12-16 Tue> 95
+<2025-12-24 Wed> 60
+<2025-12-28 Sun>
+<2025-12-30 Tue>
+*** DONE [[file:valid-binary-search-tree.py][valid binary search tree]]
+CLOSED: [2025-12-31 Wed 17:51]
+<2025-11-26 Wed> 90
+<2025-11-30 Sun>
+<2025-12-16 Tue> 70
+<2025-12-29 Mon> 80
+<2025-12-31 Wed>
+*** DONE [[file:kth-smallest-integer-in-bst.py][kth smallest integer in bst]]
+CLOSED: [2025-12-29 Mon 11:06]
+<2025-12-17 Wed> 95
+<2025-12-29 Mon>
+*** DONE [[file:construct-binary-tree-from-preorder-and-inorder-traversal.py][construct binary tree from preorder and inorder traversal]]
+CLOSED: [2025-12-31 Wed 18:10]
+<2025-12-17 Wed> 90
+<2025-12-29 Mon> 95
+<2025-12-31 Wed>
+*** [[file:combination-sum.py][combination sum]]
+<2025-12-23 Tue> 5
+<2025-12-29 Mon> 95
+<2026-01-02 Fri> 95
+*** [[file:word-search.py][word search]]
+<2025-12-31 Wed> 40
+*** [[file:implement-trie-(prefix-tree).py][implement trie (prefix tree)]]
+<2026-01-03 Sat>
+*** [[file:design-add-and-search-word-data-structure.py][design add and search word data structure]]
+*** TODO [[file:number-of-islands.py][number of islands]]
+* 150
+** easy
+*** DONE [[file:binary-search.py][binary search]]
+CLOSED: [2025-10-08 Wed 11:13]
+<2025-10-06 Mon> 90
+<2025-10-25 Sat>
+*** DONE [[file:diameter-of-binary-tree.py][diameter of binary tree]]
+CLOSED: [2025-10-08 Wed 11:31]
+<2025-10-06 Mon> 30
+<2025-10-07 Tue> 60
+<2025-11-01 Sat>
+*** DONE [[file:balanced-binary-tree.py][balanced binary tree]]
+CLOSED: [2025-11-14 Fri 22:09]
+<2025-10-07 Tue> 50
+<2025-10-08 Wed> 80
+<2025-11-07 Fri> 
+<2025-11-14 Fri>
+*** DONE [[file:kth-largest-element-in-a-stream.py][kth largest element in a stream]]
+CLOSED: [2025-12-10 Wed 22:02]
+<2025-10-07 Tue> 0
+<2025-10-08 Wed> 100
+<2025-10-09 Thu> 95
+<2025-12-03 Wed> 95
+<2025-12-10 Wed>c
+*** DONE [[file:last-stone-weight.py][last stone weight]]
+CLOSED: [2025-10-10 Fri 12:01]
+<2025-10-08 Wed> 10
+<2025-10-09 Thu> 100
+<2025-12-11 Thu>
+*** DONE [[file:min-cost-climbing-stairs.py][min cost climbing stairs]]
+CLOSED: [2026-01-02 Fri 19:53]
+<2025-10-09 Thu>
+<2025-10-10 Fri> 50
+<2025-10-14 Tue> 70
+<2025-10-15 Wed> 100
+<2025-12-15 Mon> 30
+<2025-12-16 Tue> 90
+<2026-01-02 Fri>
+*** IN PROGRESS [[file:non-cyclical-number.py][non-cyclical number (happy number)]]
+<2025-10-10 Fri> 80
+<2025-10-14 Tue> 60
+<2025-10-15 Wed> 90
+<2025-10-16 Thu> 100
+<2026-01-02 Fri> 95
+*** DONE [[file:plus-one.py][plus one]]
+CLOSED: [2025-10-16 Thu 14:43]
+<2025-10-10 Fri> 40
+<2025-10-14 Tue> 70
+<2025-10-15 Wed> 100
+<2026-01-03 Sat>
+*** IN PROGRESS [[file:single-number.py][single number]]
+<2025-10-10 Fri> 90
+<2025-10-14 Tue> 100
+<2025-10-15 Wed> 100
+
+** medium
+*** DONE [[file:valid-sudoku.py][valid sudoku]]
+CLOSED: [2025-11-03 Mon 17:51]
+<2025-10-23 Thu> 60
+<2025-10-27 Mon> 80
+<2025-11-02 Sun>
+<2025-11-03 Mon>
+*** DONE [[file:two-sum-2.py][two sum 2]]
+CLOSED: [2025-11-04 Tue 13:58]
+<2025-10-23 Thu> 95
+<2025-10-27 Mon> 95
+<2025-11-02 Sun>
+<2025-11-04 Tue>
+*** DONE [[file:permutation-in-string.py][permutation in string]]
+CLOSED: [2025-11-30 Sun 18:55]
+<2025-10-27 Mon> 90
+<2025-11-06 Thu> 95
+<2025-11-26 Wed>
+<2025-11-28 Fri> 95
+<2025-11-30 Sun>
+*** DONE [[file:minimum-stack.py][minimum stack]]
+CLOSED: [2025-11-06 Thu 16:06]
+<2025-10-27 Mon>
+<2025-11-06 Thu>
+*** DONE [[file:evaluate-reverse-polish-notation.py][evaluate reverse polish notation]]
+CLOSED: [2025-11-26 Wed 22:11]
+<2025-10-27 Mon>
+<2025-11-06 Thu>
+<2025-11-26 Wed>
+*** DONE [[file:daily-temperatures.py][daily temperatures]]
+CLOSED: [2025-12-05 Fri 17:21]
+<2025-11-07 Fri> 5
+<2025-11-26 Wed> 4
+<2025-11-28 Fri> 3
+<2025-11-30 Sun> 60
+<2025-12-02 Tue>
+<2025-12-05 Fri>
+*** DONE [[file:car-fleet.py][car fleet]]
+CLOSED: [2025-12-07 Sun 15:09]
+<2025-11-07 Fri> 6
+<2025-11-28 Fri> 4
+<2025-11-30 Sun> 40
+<2025-12-02 Tue>
+<2025-12-07 Sun>
+*** DONE [[file:search-a-2d-matrix.py][search a 2d matrix]]
+CLOSED: [2025-11-30 Sun 20:11]
+<2025-11-07 Fri> 95
+<2025-11-28 Fri> 95
+<2025-11-30 Sun>
+*** DONE [[file:koko-eating-bananas.py][koko eating bananas]]
+CLOSED: [2025-12-12 Fri 21:55]
+<2025-11-30 Sun> 70
+<2025-12-03 Wed> 95
+<2025-12-07 Sun>
+<2025-12-10 Wed> 95
+<2025-12-12 Fri>
+*** DONE [[file:time-based-key-value-store.py][time based key-value store]]
+CLOSED: [2025-12-17 Wed 12:00]
+<2025-12-03 Wed> 5
+<2025-12-09 Tue> 25
+<2025-12-10 Wed>
+<2025-12-15 Mon> 95
+<2025-12-17 Wed>
+*** DONE [[file:copy-linked-list-with-random-pointer.py][copy linked list with random pointer]]
+CLOSED: [2025-12-22 Mon 13:19]
+<2025-12-05 Fri> 70
+<2025-12-10 Wed> 95
+<2025-12-15 Mon> 95
+<2025-12-22 Mon>
+*** DONE [[file:add-two-numbers.py][add two numbers]]
+CLOSED: [2025-12-28 Sun 12:15]
+<2025-12-11 Thu> 25
+<2025-12-15 Mon>
+<2025-12-22 Mon> 90
+<2025-12-28 Sun>
+*** DONE [[file:find-the-duplicate-number.py][find the duplicate number]]
+CLOSED: [2025-12-28 Sun 12:29]
+<2025-12-10 Wed> 80
+<2025-12-15 Mon> 85
+<2025-12-22 Mon>
+<2025-12-28 Sun>
+*** DONE [[file:lru-cache.py][lru cache]]
+CLOSED: [2025-12-30 Tue 16:58]
+<2025-12-16 Tue> 40
+<2025-12-23 Tue> 80
+<2025-12-28 Sun> 82
+<2025-12-30 Tue>
+*** DONE [[file:binary-tree-right-side-view.py][binary tree right side view]]
+CLOSED: [2025-12-29 Mon 10:40]
+<2025-12-16 Tue>
+<2025-12-29 Mon>
+*** [[file:count-good-nodes-in-binary-tree.py][count good nodes in binary tree]]
+<2025-12-16 Tue>
+<2025-12-28 Sun> 80
+<2025-12-31 Wed> 85
+<2026-01-02 Fri> 95
+*** DONE [[file:k-closest-points-to-origin.py][k closest points to origin]]
+CLOSED: [2025-12-29 Mon 12:30]
+<2025-12-17 Wed>
+<2025-12-29 Mon>
+*** DONE [[file:kth-largest-element-in-an-array.py][kth largest element in an array]]
+CLOSED: [2025-12-31 Wed 18:26]
+<2025-12-23 Tue> 5
+<2025-12-29 Mon> 100, (but heap solution, need to to do QS)
+<2025-12-31 Wed>
+*** DONE [[file:task-scheduler.py][task scheduler]]
+CLOSED: [2026-01-02 Fri 19:30]
+<2025-12-24 Wed>
+<2025-12-29 Mon> 95
+<2026-01-02 Fri>
+*** DONE [[file:subsets.py][subsets]]
+CLOSED: [2026-01-02 Fri 19:33]
+<2025-12-24 Wed>
+<2025-12-29 Mon> 95
+<2026-01-02 Fri>
+*** [[file:combination-sum-2.py][combination sum 2]]
+<2025-12-24 Wed> 10
+*** [[file:permutations.py][permutations]]
+<2025-12-23 Tue> 5
+<2025-12-29 Mon> 75
+<2026-01-02 Fri> 95
+*** [[file:subsets-2.py][subsets 2]]
+<2025-12-30 Tue> 5
+*** [[file:generate-parentheses.py][generate parentheses]]
+<2025-12-29 Mon> 40
+<2026-01-03 Sat> 35
+*** TODO [[file:palindrome-partitioning.py][palindrome partitioning]]
+*** [[file:letter-combinations-of-a-phone-number.py][letter combinations of a phone number]]
+<2026-01-02 Fri>
+
+* notes
+do design-twitter (med) after merge k sorted lists (hard)
+
+* misc
+** medium
+*** [[file:triangle.py][triangle]]
+<2025-11-26 Wed>
+<2025-11-30 Sun> 80
+
+
+
